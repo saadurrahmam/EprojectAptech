@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body {
+    background: rgb(241, 216, 169);
+}
+
+/* .section-padding{
+    padding: 100px 0;
+} */
+#myul{
+    background-color:rgb(241, 216, 169) ;
+}
+
+
+#hello-section{
+    padding: 15px;
+}
+
+#hello-section p{
+    font-size: 20px;
+    font-weight: 300px;
+    line-height: 2;
+}
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 290px;
+    z-index: 2;
+}
+
+.carousal-caption h5 {
+
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.carousel-caption p {
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 3;
+}
+
+.carousel-inner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.btn-1:hover {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-1 {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.nav {
+    box-shadow: 10px 10px 10px 0 gray , 0 4px 12px 0 gray; 
+}
+
+.navbar-brand i {
+    color: orange;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500px;
+
+}
+
+
+
+
+/* .navbar-light .navbar-brand{
+    
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700px;
+    letter-spacing: 2px;
+} */
+
+
+/* .navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #fff;
+}
+
+.navbar-light .navbar-brand .navbar-link{
+    color: #fff;
+} */
+
+.w-100 {
+    height: 100vh;
+}
+
+
+/* responsive css */
+
+@media only screen and (max-width:767px) {
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousal-caption h5 {
+        font-size: 17px;
+    }
+
+    .carousal-caption a {
+        padding: 10px 15px;
+    }
+}
+
+
+/* 
+@media only screen and (max-width:767px){
+    .navbar-nav{
+        text-align: center;
+    }
+} */
+
+
+
+
+
+
+/* gallery page */
+
+#my-img .thumbnail img{
+    transform: scale(1);
+    transition: 0.3s ease-in;
+}
+#my-img .thumbnail:hover img{
+    transform: scale(1.1);
+}
+
+
+/* about page */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.about-1 {
+    margin: 30px;
+    padding: 5px;
+
+}
+
+.about-1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.about-1 p {
+    text-align: center;
+    font-weight: bold;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+}
+
+.about-item {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 80px, 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0 .6);
+}
+
+.about-item i {
+    font-size: 43px;
+    margin: 0;
+    color: orange;
+}
+
+.about-item h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.about-item hr {
+    width: 46px;
+    height: 3px;
+    background-color: rgb(52, 158, 96);
+    margin: 0 auto;
+    border: nome;
+}
+
+.about-item p {
+    margin-top: 20px;
+}
+
+.about-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+
+
+/* contact page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container .h1-responsive {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+}
+
+.container p {
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* animals page */
+
+
+.my-section h1 {
+    font-weight: bolder;
+}
+
+.my-section h3 {
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+
+.my-section p {
+    font-size: 20px;
+    padding: 30px;
+}
+
+
+
+.my-section .row img {
+    clip-path: circle(35% at 50% 50%);
+}
+
+
+
+
+/* LAND ANIMALS PAGE */
+
+
+.my-section-2 h1 {
+    font-weight: bolder;
+}
